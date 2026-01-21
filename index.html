@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Swipe - Swipe Your Way to Luxury Watches</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top custom-navbar">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/watchswipe-logo.png" alt="Watch Swipe Logo" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i data-lucide="menu" width="24" height="24"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How It Works</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#watches">Watches</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <button class="btn btn-gradient rounded-pill px-4 py-2">Download App</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-section position-relative overflow-hidden">
+        <div class="gradient-blob gradient-blob-1"></div>
+        <div class="gradient-blob gradient-blob-2"></div>
+        
+        <div class="container-xxl position-relative">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="text-white">
+                        <span class="badge badge-custom mb-4">
+                            <span class="text-pink">✨ New Way to Shop Luxury Watches</span>
+                        </span>
+                        
+                        <h1 class="display-3 fw-bold mb-4">
+                            Swipe Your Way to
+                            <span class="d-block gradient-text">Luxury Watches</span>
+                        </h1>
+                        
+                        <p class="lead text-white-70 mb-4">
+                            Discover premium timepieces with a simple swipe. Like what you see? Buy it instantly. Skip what you don't. Shopping watches has never been this fun.
+                        </p>
+                        
+                        <div class="d-flex flex-column flex-sm-row gap-3 mb-5">
+                            <button class="download-now btn btn-gradient btn-lg rounded-pill d-inline-flex align-items-center justify-content-center gap-2">
+                                Download Now
+                                <i data-lucide="arrow-right" width="20" height="20"></i>
+                            </button>
+                            <button class="watch-demo btn btn-glass btn-lg rounded-pill d-inline-flex align-items-center justify-content-center gap-2">
+                                <i data-lucide="play" width="20" height="20"></i>
+                                Watch Demo
+                            </button>
+                        </div>
+
+                        <div class="row g-4 pt-3">
+                            <div class="col-auto">
+                                <div class="fs-2 fw-bold">10K+</div>
+                                <div class="text-white-60 small">Active Users</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="fs-2 fw-bold">1000+</div>
+                                <div class="text-white-60 small">Luxury Watches</div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="fs-2 fw-bold">4.9★</div>
+                                <div class="text-white-60 small">App Rating</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="position-relative d-flex justify-content-center justify-content-lg-end">
+                        <div class="phone-mockup">
+                            <div class="phone-glow"></div>
+                            <div class="phone-frame">
+                                <div class="phone-screen">
+                                    <img src="assets/img/c32370980f2f51d056577b95f0014c3b94779891.png" alt="Watch Swipe App" class="w-100 h-100 object-fit-cover rounded-4">
+                                </div>
+                            </div>
+                            
+                            <div class="floating-card floating-card-1 animate-float">
+                                <div class="text-white">
+                                    <div class="small text-white-60">Swipes Today</div>
+                                    <div class="fs-3 fw-bold">247</div>
+                                </div>
+                            </div>
+
+                            <div class="floating-card floating-card-2 animate-float-delayed">
+                                <div class="text-white">
+                                    <div class="small text-white-60">Saved</div>
+                                    <div class="fs-3 fw-bold">12</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pre regstration form area -->
+     <!-- Add this section before the Features section (before id="features") -->
+
+<!-- Pre-Registration Section -->
+<section id="pre-register" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="pre-register-card">
+                    <div class="text-center mb-4">
+                        <span class="badge-custom mb-3 d-inline-block">
+                            <i class="bi bi-star-fill text-pink"></i> Early Access
+                        </span>
+                        <h2 class="display-5 fw-bold mb-3">
+                            Join the <span class="gradient-text">Waitlist</span>
+                        </h2>
+                        <p class="text-white-70 fs-5">
+                            Be among the first to experience the future of watch trading. 
+                            Get exclusive early bird benefits!
+                        </p>
+                    </div>
+
+                    <form id="preRegisterForm" class="mt-4">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-glass" 
+                                       placeholder="Full Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control form-control-glass" 
+                                       placeholder="Email Address" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control form-control-glass" 
+                                       placeholder="Phone Number" required>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-select form-control-glass" required>
+                                    <option value="">Interested In</option>
+                                    <option value="buying">Buying Watches</option>
+                                    <option value="selling">Selling Watches</option>
+                                    <option value="both">Both</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                                    <label class="form-check-label text-white-60" for="agreeTerms">
+                                        I agree to receive updates and promotional emails
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-gradient btn-lg w-100">
+                                    <i class="bi bi-check-circle me-2"></i>
+                                    Reserve My Spot
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-4">
+                        <div class="row text-white-60">
+                            <div class="col-4">
+                                <div class="fw-bold fs-4 text-pink">500+</div>
+                                <div class="small">Already Registered</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="fw-bold fs-4 text-pink">100</div>
+                                <div class="small">Spots Left</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="fw-bold fs-4 text-pink">20%</div>
+                                <div class="small">Early Bird Discount</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- pre regstration form area -->
+
+    <!-- Features -->
+    <section id="features" class="py-5 my-5">
+        <div class="container-xxl">
+            <div class="text-center mb-5">
+                <span class="badge badge-custom mb-3">Features</span>
+                <h2 class="display-4 fw-bold text-white mb-3">Why Watch Swipe?</h2>
+                <p class="lead text-white-70 mx-auto" style="max-width: 700px;">
+                    The most innovative way to shop for luxury timepieces
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card h-100">
+                        <div class="icon-box icon-box-pink mb-4">
+                            <i data-lucide="heart" width="28" height="28"></i>
+                        </div>
+                        <h5 class="text-white mb-3">Swipe to Discover</h5>
+                        <p class="text-white-70 mb-0">Browse through thousands of luxury watches with a simple swipe. Love it or leave it.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card h-100">
+                        <div class="icon-box icon-box-purple mb-4">
+                            <i data-lucide="zap" width="28" height="28"></i>
+                        </div>
+                        <h5 class="text-white mb-3">Instant Purchase</h5>
+                        <p class="text-white-70 mb-0">Found your perfect watch? Buy it instantly with our secure one-tap checkout.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card h-100">
+                        <div class="icon-box icon-box-blue mb-4">
+                            <i data-lucide="shield" width="28" height="28"></i>
+                        </div>
+                        <h5 class="text-white mb-3">Verified Authentic</h5>
+                        <p class="text-white-70 mb-0">Every watch is authenticated and comes with a certificate of authenticity.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card h-100">
+                        <div class="icon-box icon-box-orange mb-4">
+                            <i data-lucide="trending-up" width="28" height="28"></i>
+                        </div>
+                        <h5 class="text-white mb-3">Smart Recommendations</h5>
+                        <p class="text-white-70 mb-0">AI-powered suggestions based on your swipes and preferences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-5 my-5">
+        <div class="container-xxl">
+            <div class="text-center mb-5">
+                <span class="badge badge-custom mb-3">How It Works</span>
+                <h2 class="display-4 fw-bold text-white mb-3">Get Started in 4 Simple Steps</h2>
+                <p class="lead text-white-70 mx-auto" style="max-width: 700px;">
+                    From download to delivery, we've made luxury watch shopping effortless
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center position-relative">
+                        <div class="step-connector d-none d-lg-block"></div>
+                        <div class="step-icon mx-auto mb-4">
+                            <i data-lucide="download" width="40" height="40"></i>
+                            <span class="step-number">01</span>
+                        </div>
+                        <h5 class="text-white mb-3">Download App</h5>
+                        <p class="text-white-70">Get Watch Swipe from App Store or Google Play</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center position-relative">
+                        <div class="step-connector d-none d-lg-block"></div>
+                        <div class="step-icon mx-auto mb-4">
+                            <i data-lucide="smartphone" width="40" height="40"></i>
+                            <span class="step-number">02</span>
+                        </div>
+                        <h5 class="text-white mb-3">Start Swiping</h5>
+                        <p class="text-white-70">Browse through curated luxury watches</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center position-relative">
+                        <div class="step-connector d-none d-lg-block"></div>
+                        <div class="step-icon mx-auto mb-4">
+                            <i data-lucide="credit-card" width="40" height="40"></i>
+                            <span class="step-number">03</span>
+                        </div>
+                        <h5 class="text-white mb-3">Buy Swipes</h5>
+                        <p class="text-white-70">Purchase swipe credits to unlock more watches</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center">
+                        <div class="step-icon mx-auto mb-4">
+                            <i data-lucide="watch" width="40" height="40"></i>
+                            <span class="step-number">04</span>
+                        </div>
+                        <h5 class="text-white mb-3">Get Your Watch</h5>
+                        <p class="text-white-70">Secure checkout and fast delivery to your door</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button class="btn btn-gradient btn-lg rounded-pill px-5">Start Swiping Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase -->
+    <!-- <section id="watches" class="py-5 my-5">
+        <div class="container-xxl">
+            <div class="text-center mb-5">
+                <span class="badge badge-custom mb-3">Featured Watches</span>
+                <h2 class="display-4 fw-bold text-white mb-3">Trending This Week</h2>
+                <p class="lead text-white-70 mx-auto" style="max-width: 700px;">
+                    Explore our most popular luxury timepieces
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="watch-card h-100">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h5 class="text-white fw-bold mb-1">JAQUET DROZ</h5>
+                                <p class="text-white-70 small mb-0">T409 Black Race model</p>
+                            </div>
+                            <span class="badge bg-purple">Good Quality</span>
+                        </div>
+                        <div class="watch-image watch-image-1 mb-3">
+                            <div class="watch-placeholder">⌚</div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <div class="text-white-50 small text-decoration-line-through">499 AED</div>
+                                <div class="text-white fw-bold fs-4">299 AED</div>
+                            </div>
+                            <div class="d-flex align-items-center gap-1 text-white-70 small">
+                                <i data-lucide="map-pin" width="14" height="14"></i> Dubai
+                            </div>
+                        </div>
+                        <button class="btn btn-gradient w-100 rounded-3">View Details</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="watch-card h-100">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h5 class="text-white fw-bold mb-1">ROLEX</h5>
+                                <p class="text-white-70 small mb-0">Submariner Date</p>
+                            </div>
+                            <span class="badge bg-purple">Excellent</span>
+                        </div>
+                        <div class="watch-image watch-image-2 mb-3">
+                            <div class="watch-placeholder">⌚</div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <div class="text-white-50 small text-decoration-line-through">12,999 AED</div>
+                                <div class="text-white fw-bold fs-4">10,499 AED</div>
+                            </div>
+                            <div class="d-flex align-items-center gap-1 text-white-70 small">
+                                <i data-lucide="map-pin" width="14" height="14"></i> Abu Dhabi
+                            </div>
+                        </div>
+                        <button class="btn btn-gradient w-100 rounded-3">View Details</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="watch-card h-100">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h5 class="text-white fw-bold mb-1">OMEGA</h5>
+                                <p class="text-white-70 small mb-0">Seamaster Professional</p>
+                            </div>
+                            <span class="badge bg-purple">Premium</span>
+                        </div>
+                        <div class="watch-image watch-image-3 mb-3">
+                            <div class="watch-placeholder">⌚</div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <div class="text-white-50 small text-decoration-line-through">8,999 AED</div>
+                                <div class="text-white fw-bold fs-4">7,299 AED</div>
+                            </div>
+                            <div class="d-flex align-items-center gap-1 text-white-70 small">
+                                <i data-lucide="map-pin" width="14" height="14"></i> Sharjah
+                            </div>
+                        </div>
+                        <button class="btn btn-gradient w-100 rounded-3">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <p class="text-white-70 mb-3">
+                    <span class="text-warning fw-semibold">👑 04 SWIPE LEFT</span> • Get more swipes to discover exclusive watches
+                </p>
+                <button class="btn btn-warning btn-lg rounded-pill fw-bold px-5">
+                    <span class="me-2">👑</span>
+                    Get Premium Swipes
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+ 
+
+<!-- About Section -->
+<section id="about" class="py-5 my-5">
+    <div class="container-xxl">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <div class="about-image-wrapper">
+                        <img src="./assets/img/WATCH.jpg" alt="Luxury Watches Collection" class="img-fluid rounded-4 shadow-lg">
+                        <div class="about-badge position-absolute">
+                            <div class="text-white text-center p-3">
+                                <div class="fs-2 fw-bold">5+</div>
+                                <div class="small">Years Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <span class="badge badge-custom mb-3">About Watch Swipe</span>
+                <h2 class="display-4 fw-bold text-white mb-4"> 
+                    <span class="d-block gradient-text">Buy Luxury Watches</span>
+                </h2>
+                
+                <p class="text-white-70 mb-4 fs-6">
+                    Watch Swipe is transforming the luxury watch marketplace by combining the excitement of modern dating apps with the sophistication of high-end timepiece trading.
+                </p>
+
+                <div class="mb-4">
+                    <div class="d-flex gap-3 mb-3">
+                        <div class="icon-box icon-box-pink flex-shrink-0">
+                            <i data-lucide="check" width="24" height="24"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-white mb-2">Curated Collection</h5>
+                            <p class="text-white-60 mb-0">Every watch is hand-picked and verified by our expert team of horologists.</p>
+                        </div>
+                    </div>
+
+               
+
+                    <div class="d-flex gap-3">
+                        <div class="icon-box icon-box-purple flex-shrink-0">
+                            <i data-lucide="check" width="24" height="24"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-white mb-2">Trusted Marketplace</h5>
+                            <p class="text-white-60 mb-0">Join thousands of satisfied customers who trust us with their luxury purchases.</p>
+                        </div>
+                    </div>
+                </div>
+
+             
+            </div>
+        </div>
+    </div>
+</section>
+ 
+ <!-- About us area -->
+
+<!-- CTA Section -->
+<section class="py-5 position-relative overflow-hidden cta-section">
+    <div class="cta-glow"></div>
+    <div class="cta-glow-secondary"></div>
+    
+    <div class="container position-relative">
+        <div class="cta-box mx-auto">
+            <!-- Decorative Elements --> 
+            
+            <h2 class="display-4 fw-bold text-white mb-4 animate-fade-in">
+                Ready to Find Your
+                <span class="d-block gradient-text-animated">Perfect Timepiece?</span>
+            </h2>
+            
+            <p class="lead text-white-70 mb-5 mx-auto animate-fade-in-delay" style="max-width: 700px;">
+                Join <span class="text-pink fw-semibold">thousands</span> of watch enthusiasts who are discovering luxury watches in the most engaging way possible.
+            </p>
+
+            <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mb-5">
+                <button class="btn btn-store btn-lg rounded-4 d-flex align-items-center gap-3 position-relative overflow-hidden" style="min-width: 200px;">
+                    <span class="btn-shine"></span>
+                    <i data-lucide="apple" width="32" height="32"></i>
+                    <div class="text-start">
+                        <div class="small opacity-75">Download on the</div>
+                        <div class="fs-5 fw-bold">App Store</div>
+                    </div>
+                </button>
+                
+                <button class="btn btn-store btn-lg rounded-4 d-flex align-items-center gap-3 position-relative overflow-hidden" style="min-width: 200px;">
+                    <span class="btn-shine"></span>
+                    <i data-lucide="smartphone" width="32" height="32"></i>
+                    <div class="text-start">
+                        <div class="small opacity-75">Get it on</div>
+                        <div class="fs-5 fw-bold">Google Play</div>
+                    </div>
+                </button>
+            </div>
+
+   
+
+            <!-- Trust Badges -->
+            <div class="trust-badges mt-4">
+                <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                    <div class="trust-item">
+                        <i data-lucide="shield-check" width="20" height="20" class="text-success"></i>
+                        <span class="text-white-60 small ms-2">100% Authentic</span>
+                    </div>
+                   
+                    <div class="trust-item">
+                        <i data-lucide="lock" width="20" height="20" class="text-warning"></i>
+                        <span class="text-white-60 small ms-2">Secure Payment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- Contact section -->
+ <section id="contact" class="py-5 my-5">
+    <div class="container-xxl">
+        <div class="text-center mb-5">
+            <span class="badge badge-custom mb-3">Get in Touch</span>
+            <h2 class="display-4 fw-bold text-white mb-4">
+                Let's Talk About
+                <span class="d-block gradient-text">Your Next Watch</span>
+            </h2>
+            
+            <p class="text-white-70 mb-4 fs-5 mx-auto" style="max-width: 700px;">
+                Have questions? We're here to help you find the perfect timepiece or answer any inquiries about our platform.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+           <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="feature-card text-center h-100">
+                    <div class="icon-box icon-box-pink mb-4 mx-auto">
+                        <i data-lucide="mail" width="28" height="28"></i>
+                    </div>
+                    <h5 class="text-white mb-3">Email Us</h5>
+                    <a href="mailto:support@watchswipe.com" class="text-white-60 text-decoration-none">
+                        support@watchswipe.com
+                    </a>
+                </div>
+            </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="feature-card text-center h-100">
+                    <div class="icon-box icon-box-purple mb-4 mx-auto">
+                        <i data-lucide="phone" width="28" height="28"></i>
+                    </div>
+                    <h5 class="text-white mb-3">Call Us</h5>
+                    <a href="tel:+971501234567" class="text-white-60 text-decoration-none">
+                        +971 50 123 4567
+                    </a>
+                </div>
+            </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="feature-card text-center h-100">
+                    <div class="icon-box icon-box-blue mb-4 mx-auto">
+                        <i data-lucide="map-pin" width="28" height="28"></i>
+                    </div>
+                    <h5 class="text-white mb-3">Visit Us</h5>
+                    <p class="text-white-60 mb-0">Dubai Marina, UAE</p>
+                </div>
+            </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="feature-card text-center h-100">
+                    <div class="icon-box icon-box-orange mb-4 mx-auto">
+                        <i data-lucide="clock" width="28" height="28"></i>
+                    </div>
+                    <h5 class="text-white mb-3">Working Hours</h5>
+                    <p class="text-white-60 mb-0">Mon - Sat<br>9:00 AM - 8:00 PM</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
+<!-- Contact section -->
+
+    <!-- Footer -->
+    <footer class="border-top border-white-10 py-5">
+        <div class="container-xxl">
+            <div class="row g-4 mb-4">
+                <div class="col-md-6 col-lg-5">
+                    <img src="./assets/img/watchswipe-logo.png" alt="Watch Swipe Logo" height="40" class="mb-3">
+                    <p class="text-white-60 mb-3" style="max-width: 400px;">
+                        The most innovative way to discover and purchase luxury watches. Swipe, like, and buy in seconds.
+                    </p>
+                    <div class="d-flex gap-2">
+                          <a href="https://facebook.com/" class="social-link">
+                            <i data-lucide="facebook" width="20" height="20"></i>
+                        </a>
+
+                        <a href="https://instagram.com/" class="social-link">
+                            <i data-lucide="instagram" width="20" height="20"></i>
+                        </a>
+
+                        <a href="https://youtube.com/" class="social-link">
+                            <i data-lucide="youtube" width="20" height="20"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 offset-lg-1">
+                    <h6 class="text-white fw-semibold mb-3">Product</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#features" class="text-white-60 text-decoration-none">Features</a></li>
+                        <li class="mb-2"><a href="#how-it-works" class="text-white-60 text-decoration-none">How It Works</a></li> 
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="text-white fw-semibold mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#about" class="text-white-60 text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-white-60 text-decoration-none">Contact</a></li>
+                        <!-- <li class="mb-2"><a href="#privacy-policy" class="text-white-60 text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#terms-of-service" class="text-white-60 text-decoration-none">Terms of Service</a></li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-top border-white-10 pt-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <p class="text-white-60 small mb-0">
+                            © 2026 <span class="watch-swipe"> Watch Swipe. </span>  All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="text-white-60 small mb-0">
+                            Powered by <a class="giraf" href="https://girafcreatives.com/in" target="_blank"> Giraf Creatives </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
