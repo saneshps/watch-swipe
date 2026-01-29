@@ -30,7 +30,7 @@ html {
 
 .container-xxl 
 {
-    max-width: clamp(300px, 90%, 1520px);
+    max-width: clamp(290px, 90%, 1520px);
     width: 100%;
 }
 
@@ -235,7 +235,7 @@ html {
 
 .floating-card-2 {
     left: -1rem;
-    bottom: 8rem;
+    bottom: 3rem;
 }
 
 /* Feature Cards */
@@ -1254,6 +1254,8 @@ padding: clamp(40px, 10vh, 100px) 0;
 
 /* Responsive pricing cards */
 @media (max-width: 768px) {
+
+
     .pricing-card {
         margin-bottom: 1rem;
     }
@@ -1270,6 +1272,39 @@ padding: clamp(40px, 10vh, 100px) 0;
 /* ===========================
    IMAGE SLIDER STYLES
    =========================== */
+@media (max-width: 1024px) 
+{
+
+    .display-6 {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+    .nav-link {
+    font-size: 14px;
+    padding: 0;
+}
+    .feature-card {
+        padding: 1rem;
+    }
+
+    footer 
+    {
+        padding: 40px 0 20px 0 !important;
+    }
+}
+
+@media (max-width: 992px) 
+{
+
+    .nav-link {
+    font-size: 14px;
+    padding: 0;
+}
+    .feature-card {
+        padding: 1rem;
+    }
+}
 
 .feature-slider {
     width: 100%;
@@ -1379,8 +1414,53 @@ padding: clamp(40px, 10vh, 100px) 0;
 /* Mobile Responsive */
 @media (max-width: 768px) {
 
+    .custom-navbar.scrolled .navbar-brand img {
+    width: 90px;
+}
+
+.custom-navbar.scrolled {
+    padding: 5px 0; 
+}
+
+    .contact-form-wrapper { 
+        padding: 40px 20px;
+    }
+
+    .app-btn
+    {
+        margin: 0 30px 0 0;
+    }
+
+        #about .icon-box {
+        width: 45px;
+        height: 45px;
+        margin: 0 20px 0 0;
+    }
+
+#about
+{
+        padding: 10px 0 !important;
+    margin: 10px 0 !important;
+}#features 
+{
+        padding: 10px 0 !important;
+    margin: 10px 0 !important;
+}
+
+    .watch-demo {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+
+    .download-now {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+
     .custom-navbar { 
-    padding: 10px 0 30px 0;
+    padding: 10px 0 10px 0;
 }
 
     .gap-3 {
@@ -1435,6 +1515,139 @@ padding: clamp(40px, 10vh, 100px) 0;
 }
 
 @media (max-width: 576px) {
+
+    .custom-navbar.scrolled .navbar-brand img {
+    width: 70px;
+}
+
+.custom-navbar.scrolled {
+    padding: 3px 0; 
+}
+
+        .custom-navbar {
+        padding: 3px 0 3px 0;
+    }
+
+    footer 
+    {
+        padding: 40px 0 20px 0 !important;
+    }
+
+        .buying-area {
+        padding: 30px 0 10px 0;
+    }
+
+        .contact-form-wrapper {
+        padding: 2rem 1rem;
+    }
+
+    .fs-5 {
+    font-size: 1rem !important;
+}
+
+    .trust-badges {
+    padding-top: 0rem;
+}
+
+    .pre-register-card {
+        padding: 2rem 1rem;
+    }
+
+    .active-users .small
+    {
+        font-size: 11px;
+    }
+
+    .banner-box
+    {
+        padding: 0 10px;
+                margin: 10px 0;
+    }
+
+    .app-btn 
+    {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+        .cta-box {
+        padding: 2rem 1rem;
+    }
+
+    #about .icon-box {
+    width: 35px;
+    height: 35px; 
+    margin: 0 10px 0 0;
+}
+
+    .about-badge-box
+    {
+        padding: 0 !important;
+    }
+
+        .about-badge {
+        top: 10px;
+        left: 10px;
+        bottom: auto;
+        right: auto;
+        padding: 0.5rem !important;
+    }
+
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+#contact .container-xxl
+{
+    padding:  0 !important; 
+}
+#contact
+{
+    padding: 30px 0 0 0 !important;
+    margin: 30px 0 30px 0 !important;
+}
+#about
+{
+    padding: 30px 0 0 0 !important;
+    margin: 30px 0 0 0 !important;
+}
+#how-it-works
+{
+    padding: 30px 0 0 0 !important;
+    margin: 30px 0 0 0 !important;
+}
+    
+#features
+{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+    
+    .three-month .small
+    {
+        font-size: 11px;
+    }
+
+    .btn 
+    {
+        font-size: 15px;
+    }
+
+        .display-5 {
+        font-size: 1.5rem;
+    }
+
+.download-now {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 0 0 15px 0;
+}
+.watch-demo {
+    padding: 10px 15px;
+    font-size: 15px; 
+}
+
+
     .slider-container {
         height: 300px;
     }
