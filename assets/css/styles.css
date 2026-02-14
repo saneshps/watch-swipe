@@ -491,6 +491,46 @@ html {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(255,255,255,0.7)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
 }
 
+ 
+.form-select-glass option,
+.form-control-glass option {
+    background-color: #1a0f2e !important;
+    background: #1a0f2e !important;
+    color: #ffffff !important;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.form-select-glass option:hover,
+.form-control-glass option:hover {
+    background: #8b5cf6 !important;
+    background-color: #8b5cf6 !important;
+    color: white !important;
+}
+
+.form-select-glass option:checked,
+.form-select-glass option:focus,
+.form-control-glass option:checked,
+.form-control-glass option:focus {
+    background: #ec4899 !important;
+    background-color: #ec4899 !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+ 
+select.form-select-glass,
+select.form-control-glass {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+select.form-select-glass option[value=""],
+select.form-control-glass option[value=""] {
+    color: rgba(255, 255, 255, 0.5) !important;
+    background-color: #1a0f2e !important;
+}
+
 .form-check-input {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.3);
