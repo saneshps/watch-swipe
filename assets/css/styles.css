@@ -1765,7 +1765,7 @@ padding: clamp(40px, 10vh, 100px) 0;
 
         .navbar-brand img 
     {
-        width: 130px; 
+        width: 190px; 
     }
     .step-connector {
         display: none !important;
@@ -1787,7 +1787,7 @@ padding: clamp(40px, 10vh, 100px) 0;
         width: 110px; 
     }
     .hero-section {
-        padding-top: 4rem;
+        padding-top: 6rem;
         padding-bottom: 2rem;
     }
     
@@ -2017,7 +2017,7 @@ padding: clamp(40px, 10vh, 100px) 0;
     }
 
     .custom-navbar.scrolled .navbar-brand img {
-    width: 110px;
+    width: 150px;
 }
 
 .custom-navbar.scrolled {
@@ -2144,7 +2144,7 @@ padding: clamp(40px, 10vh, 100px) 0;
     }
 
         .navbar-brand img {
-        width: 110px;
+        width: 170px;
     }
     
     .custom-navbar
@@ -2162,7 +2162,7 @@ padding: clamp(40px, 10vh, 100px) 0;
     }
 
     .custom-navbar.scrolled .navbar-brand img {
-    width: 80px;
+    width: 110px;
 }
 
 .custom-navbar.scrolled {
